@@ -1,0 +1,120 @@
+body {
+    background: black;
+    height: 100vh;
+    align-items: center; 
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    margin: 50% auto;
+    background: black;
+    border-radius: 50px;
+    color: whitesmoke;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 3px rgba(255,255,255,0.5);
+}
+
+
+
+.buttons-phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    
+}
+
+#back:hover,
+#home:hover,
+#tab:hover {
+    transform: scale(1.2);
+    background: black;
+    border-radius: 5px;
+}
+
+#back {
+    background: white;
+    border-radius: 10px;
+    height: 40px;
+}
+
+
+
+#phone {
+    width: 250px ;
+    height:350px;
+    background:url(./Pain\ Naruto\ GIF\ -\ Pain\ Naruto\ Serious\ -\ Descobrir\ e\ Compartilhar\ GIFs.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px rgba(255,255,255,0.3);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cam {
+    display: flex;
+    width: 50px;
+    height: 20px;
+    background: rgb(174, 170, 170); 
+    margin-bottom: 15px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 0px 0px rgba(207, 203, 203, 0.3);
+}
+
+.toogle-cam {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: black;
+}
+
+#phone-top {
+    background: rgb(54, 51, 51);
+    display: flex;
+    justify-content: space-between;
+}
+
+#phone .horario {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#carga {
+    color: greenyellow;
+    
+}
+
+.horario {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color:rgb(19, 41, 43);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+} 
+
+
+
+#apps {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+
+.apps:hover {
+    transform: scale(1.2);
+}
